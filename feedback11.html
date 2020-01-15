@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+	.form{
+				text-align:left;
+				font-size:bold;
+				line-height:2em;
+				border: 8px solid black;
+			}
+	</style>
+</head>
+<body>
+<h1>Feedback</h1>
+<p>please provide your feedback below:</p>
+<form action="\action_page.php">
+
+   <b>How do you rate your overall experience?</b>
+   <div style="line-height:3em;">
+   <input type="radio" name="Bad">Bad
+<input type="radio" name="Average">Average
+<input type="radio" name="Good">Good
+<br>
+
+Comments:<br>
+<textarea name="message"  cols=75 rows=5 style="text-align:left; "> Your Comments </textarea>
+<br>
+
+Your name:<br>
+<input type="text">
+&nbsp;
+Email:
+<input type="text">
+<br>
+</div>
+
+<button style="background-color:orange;height:2em;width:560px;color:white">Post</button>
+</form>
+
+</body>
+</html>
